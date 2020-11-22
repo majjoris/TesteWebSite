@@ -19,7 +19,8 @@ Onde:
 - $$r1 e r2$$-são números aleatórios em entre 0 e 1. 
   
 
-  Os valores de v podem ser fixados em uma faixa quem são [vmin, vmax]  para que a partícula são saía do espaço de busca. O algoritmo PSO termina com gerações máximas ou a melhor posição de partícula do enxame, que não pode ser melhorado depois de uma quantidade suficientemente grande número de gerações.O funcionamento do algoritmo PSO está logo abaixo:
+  Os valores de $$ v $$ podem ser fixados em uma faixa quem são $$[vmin, vmax]$$  para que a partícula são saía do espaço de busca. O algoritmo PSO termina com gerações máximas ou a melhor posição de partícula do enxame, que não pode ser melhorado depois de uma quantidade suficientemente grande número de gerações.O funcionamento do algoritmo PSO está logo abaixo:
+
 ``` python
     Inicio Algoritmo
         Para i - 0 até n faça
